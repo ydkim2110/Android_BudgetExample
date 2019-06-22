@@ -1,4 +1,4 @@
-package com.example.budgetfs.ui;
+package com.example.budgetfs.ui.signin;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -13,7 +13,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.budgetfs.Links;
-import com.example.budgetfs.MainActivity;
+import com.example.budgetfs.ui.main.MainActivity;
 import com.example.budgetfs.R;
 import com.example.budgetfs.firebase.models.User;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;

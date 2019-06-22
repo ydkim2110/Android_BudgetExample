@@ -1,8 +1,12 @@
-package com.example.budgetfs;
+package com.example.budgetfs.ui.main;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+
+import com.example.budgetfs.ui.main.history.HistoryFragment;
+import com.example.budgetfs.ui.main.home.HomeFragment;
+import com.example.budgetfs.ui.main.statistics.StatisticsFragment;
 
 public class ViewPagerAdapter extends FragmentStatePagerAdapter {
 

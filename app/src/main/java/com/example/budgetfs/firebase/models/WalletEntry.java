@@ -1,4 +1,4 @@
-package com.example.budgetfs.firebase;
+package com.example.budgetfs.firebase.models;
 
 import com.google.firebase.database.IgnoreExtraProperties;
 
