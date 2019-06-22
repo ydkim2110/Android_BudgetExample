@@ -15,7 +15,7 @@ import android.widget.TextView;
 import com.example.budgetfs.Links;
 import com.example.budgetfs.MainActivity;
 import com.example.budgetfs.R;
-import com.example.budgetfs.firebase.User;
+import com.example.budgetfs.firebase.models.User;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;

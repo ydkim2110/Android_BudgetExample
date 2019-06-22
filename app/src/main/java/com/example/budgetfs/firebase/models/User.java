@@ -1,5 +1,8 @@
-package com.example.budgetfs.firebase;
+package com.example.budgetfs.firebase.models;
 
+import com.example.budgetfs.firebase.UserSettings;
+import com.example.budgetfs.firebase.Wallet;
+import com.example.budgetfs.firebase.WalletEntryCategory;
 import com.google.firebase.database.IgnoreExtraProperties;
 
 import java.util.HashMap;
@@ -13,6 +16,6 @@ public class User {
     public Map<String, WalletEntryCategory> customCategories = new HashMap<>();
 
     public User() {
-
     }
+
 }
