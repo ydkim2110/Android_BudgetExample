@@ -25,7 +25,6 @@ public class UserProfileViewModelFactory implements ViewModelProvider.Factory {
                 .setValue(user);
     }
 
-
     @NonNull
     @Override
     public <T extends ViewModel> T create(@NonNull Class<T> modelClass) {
